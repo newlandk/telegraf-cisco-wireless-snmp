@@ -1,6 +1,8 @@
 # telegraf-cisco-wireless-snmp
 Example config to pull down Cisco Wireless Controller/AP stats into telegraf by SNMP
 
+Some different metrics more specific to AP health like CAPWAP uptime, AP uptime, and CPU/Memory are in the SNMPv3 example.
+
 Tested with Telegraf 1.1.0 (Will not work in earlier versions as the SNMP plugin does not support `oid_index_suffix`
 
 ## How to use
